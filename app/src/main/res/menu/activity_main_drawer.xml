@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cloudage"
+            android:icon="@drawable/cloud"
+            android:title="Bewölkung" />
+        <item
+            android:id="@+id/nav_precipitation"
+            android:icon="@drawable/raining"
+            android:title="Niederschlag" />
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/temperature"
+            android:title="Temperatur" />
+        <item
+            android:id="@+id/nav_wetterkarten"
+            android:icon="@drawable/pressure"
+            android:title="Wetterkarten" />
+    </group>
+
+</menu>
