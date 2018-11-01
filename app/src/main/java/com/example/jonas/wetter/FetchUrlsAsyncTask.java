@@ -16,7 +16,7 @@ import static android.support.constraint.Constraints.TAG;
 
 public class FetchUrlsAsyncTask extends AsyncTask<Void, Void, Void> {
 
-    private static String apiUrl = "http://192.168.0.115/weather";
+    private static String apiUrl = "http://http://yoni-www.dynv6.net/weather";
     @Override
     protected Void doInBackground(Void... voids) {
         HttpHandler sh = new HttpHandler();
